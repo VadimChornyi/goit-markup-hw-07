@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
 }
-.social-list-link {
+.social-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,15 +18,15 @@
   }
 }
 
-.social-list-icon {
+.social-list__icon {
   width: 20px;
   height: 20px;
   fill: var(--sixth-color);
   transition-property: fill;
   transition-duration: var(--dur);
   transition-timing-function: var(--tim-fun);
-  .social-list-link:hover &,
-  .social-list-link:focus & {
+  .social-list__link:hover &,
+  .social-list__link:focus & {
     fill: var(--fourth-color);
   }
 }

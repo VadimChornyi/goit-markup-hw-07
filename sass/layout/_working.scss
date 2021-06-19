@@ -1,10 +1,11 @@
-.working-img-list {
+.img-list {
   display: flex;
+}
+.working__img-list {
   margin-left: -30px;
   margin-top: -30px;
 }
-
-.working-img-list-item {
+.img-list__item {
   position: relative;
   flex-basis: calc((100%-90px) / 3);
   margin-left: 30px;
@@ -12,7 +13,6 @@
 }
 
 .activity {
-  position: absolute;
   left: 0;
   bottom: 0;
   width: 370px;
@@ -28,4 +28,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--fourth-color);
+}
+.img-list__activity {
+  position: absolute;
 }

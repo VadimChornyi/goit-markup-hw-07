@@ -7,7 +7,7 @@
   margin-left: -30px;
   margin-top: -30px;
 }
-.team-list-item {
+.team-list__item {
   flex-basis: calc((100%-120px) / 4);
   margin-left: 30px;
   margin-top: 30px;
@@ -22,16 +22,22 @@
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
 
+.card-cont__team-name {
   margin-bottom: 10px;
 }
+
 .team-profession {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+}
+.card-cont__team-profession {
   margin-bottom: 16px;
 }
+
 .card-cont {
   text-align: center;
   padding: 30px 32px;

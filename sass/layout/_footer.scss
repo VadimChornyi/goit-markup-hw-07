@@ -37,10 +37,6 @@
   }
 }
 
-.logo-footer {
-  color: var(--fourth-color);
-}
-
 .social-title {
   font-family: var(--main-font);
   font-size: 14px;
@@ -53,10 +49,10 @@
   width: 206px;
   height: 80px;
 }
-.social-list-link {
+.social-list__link {
   background: rgba(255, 255, 255, 0.1);
 }
-.social-list-item {
+.social-list__item {
   &:not(:last-child) {
     margin-right: 10px;
   }
@@ -65,7 +61,7 @@
 .social-title {
   margin-bottom: 20px;
 }
-.footer .social-list-icon {
+.footer .social-list__icon {
   fill: var(--fourth-color);
 }
 .mailing-form {

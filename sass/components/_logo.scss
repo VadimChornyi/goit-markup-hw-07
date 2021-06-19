@@ -1,4 +1,4 @@
-.logo-link {
+.logo {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -7,9 +7,12 @@
   color: var(--accent-color);
   animation-duration: 1000ms;
 }
-.header .logo-link {
+.header__logo {
   margin-right: 92px;
 }
-.logo {
+.logo_log {
   color: var(--third-color);
+}
+.logo_footer {
+  color: var(--fourth-color);
 }

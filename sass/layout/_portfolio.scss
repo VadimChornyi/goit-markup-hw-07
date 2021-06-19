@@ -1,9 +1,11 @@
 .filter-menu {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
-  &-item:not(:last-child) {
+  &__item:not(:last-child) {
     margin-right: 8px;
+  }
+  .filter-menu__btn {
+    margin-bottom: 50px;
   }
 }
 

@@ -1,12 +1,12 @@
-.customers-list-icon {
+.customers-list__icon {
   width: 106px;
   height: 60px;
   fill: var(--sixth-color);
   transition-property: fill;
   transition-duration: var(--dur);
   transition-timing-function: var(--tim-fun);
-  .customers-list-link:hover &,
-  .customers-list-link:focus & {
+  .customers-list__link:hover &,
+  .customers-list__link:focus & {
     fill: var(--accent-color);
   }
 }
@@ -14,7 +14,7 @@
   display: flex;
   justify-content: space-between;
 }
-.customers-list-link {
+.customers-list__link {
   display: flex;
   justify-content: center;
   align-items: center;

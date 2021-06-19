@@ -1,13 +1,14 @@
-.features-list {
+.features {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 0;
 }
 
-.features-item {
+.features__item {
   max-width: 270px;
 }
 
-.features-title {
+.features__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -21,7 +22,7 @@
   color: var(--secondary-color);
   margin-top: 10px;
 }
-.icon-container {
+.iconcont {
   height: 120px;
   margin-bottom: 30px;
   background: var(--seventh-color);
@@ -31,8 +32,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.features {
-  padding-bottom: 0;
 }
