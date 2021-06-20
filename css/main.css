@@ -301,8 +301,13 @@ section {
 }
 
 .modal-form-checkbox:checked + .modal-form-checkbox-policy::before {
-  background-image: url(../../images/iconcheck.svg);
+  background-image: url(../images/iconcheck.svg);
   border: none;
+}
+
+.modal-form-checkbox:focus + .modal-form-checkbox-policy::before {
+  outline-color: var(--accent-color);
+  box-shadow: 0 0 0 2px;
 }
 
 .modal-form-btn {

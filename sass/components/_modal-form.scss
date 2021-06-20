@@ -105,13 +105,13 @@
     margin-right: 7px;
     border-radius: 2px;
     .modal-form-checkbox:checked + & {
-      background-image: url(../../images/iconcheck.svg);
+      background-image: url(../images/iconcheck.svg);
       border: none;
     }
-    // .modal-form-checkbox:focus + & {
-    //   outline-color: var(--accent-color);
-    //   box-shadow: 0 0 0 2px;
-    // }
+    .modal-form-checkbox:focus + & {
+      outline-color: var(--accent-color);
+      box-shadow: 0 0 0 2px;
+    }
   }
 }
 
